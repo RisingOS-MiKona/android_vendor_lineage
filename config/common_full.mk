@@ -34,11 +34,6 @@ endif
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode?=true
 
-# Extra cmdline tools
-PRODUCT_PACKAGES += \
-    unrar \
-    zstd
-
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
